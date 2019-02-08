@@ -55,7 +55,10 @@ align-items: center;
 }
 
 nav {
-  margin-left: 20pt;
+  color: 0047ab;
+  border: 5px;
+  border-style: solid;
+  background-color: dbe4eb;
 }
 
 nav p {
@@ -70,10 +73,14 @@ section h1 {
 
 article {
   border: 1px;
+  border-style: solid;
+  border-color: 329C3F;
+  padding: 10pt;
+  margin: 10pt;
 }
 
 article header {
-  font-style: italic;
+  font-style: bold;
 }
 
 article p {
@@ -83,14 +90,24 @@ article p {
 aside {
   display: inline-block;
   width: 40%;
+  vertical-align: top;
+  margin-top: 20pt;
+  margin-left: 20pt;
 }
 
 aside h2 {
-  
+  font-size: 8pt;
 }
 
 .quotation p {
-  font-style: italic;
+  font-style: solid;
 }
 
+footer {
+  border-top: 1pt solid;
+}
 
+footer p {
+  font-size: 12pt;
+  text-align: right;
+}
